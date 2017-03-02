@@ -1,0 +1,2 @@
+# ezcodescanner
+关于扫描二维码的额代码，用于和unity交互使用的Android部分代码
