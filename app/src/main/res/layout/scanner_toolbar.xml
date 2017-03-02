@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#333"
+    app:navigationIcon="@mipmap/abc_ic_ab_back_mtrl_am_alpha"
+    app:title="扫一扫"
+    app:titleTextColor="#fff">
+    <ImageView
+        android:id="@+id/select_image"
+        android:layout_width="33dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@mipmap/mo_scanner_album"/>
+    <ImageView
+        android:id="@+id/light"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right|center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/light_pressed"
+        android:layout_marginRight="15dp"/>
+</android.support.v7.widget.Toolbar>
